@@ -5,7 +5,7 @@ from config.constant import MODEL
 # Load environment variables
 load_dotenv()
 
-api_key=os.getenv('OPENAI_API_KEY')
+api_key=os.getenv('GAMINI_API_KEY')
 
 print(f"API Key: {api_key}")
 def get_model_client():
